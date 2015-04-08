@@ -4,20 +4,15 @@ USING_NS_CC;
 
 Scene* HelloWorld::createScene()
 {
-
     auto scene = Scene::create();
-
     auto layer = HelloWorld::create();
-
     scene->addChild(layer);
 
     return scene;
 }
-
-
+//初始化
 bool HelloWorld::init()
 {
-
     if ( !Layer::init() )
     {
         return false;
@@ -55,7 +50,7 @@ bool HelloWorld::init()
     return true;
 }
 
-
+//不需要了吧
 void HelloWorld::menuCloseCallback(Ref* pSender)
 {
 #if (CC_TARGET_PLATFORM == CC_PLATFORM_WP8) || (CC_TARGET_PLATFORM == CC_PLATFORM_WINRT)
