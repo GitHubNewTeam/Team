@@ -13,9 +13,9 @@ Scene* HelloWorld::createScene()
 <<<<<<< HEAD
 //初始化
 =======
-//
+//111
 //上传文件
-//
+//xinde 
 >>>>>>> FETCH_HEAD
 bool HelloWorld::init()
 {
