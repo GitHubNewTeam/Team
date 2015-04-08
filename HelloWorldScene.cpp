@@ -10,7 +10,13 @@ Scene* HelloWorld::createScene()
 
     return scene;
 }
+<<<<<<< HEAD
 //初始化
+=======
+
+//上传文件
+
+>>>>>>> FETCH_HEAD
 bool HelloWorld::init()
 {
     if ( !Layer::init() )
