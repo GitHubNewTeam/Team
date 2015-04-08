@@ -13,9 +13,21 @@ Scene* HelloWorld::createScene()
 <<<<<<< HEAD
 //初始化
 =======
+<<<<<<< HEAD
 //111
 //上传文件
 //xinde 
+=======
+<<<<<<< HEAD:HelloWorldScene.cpp
+//adhjjkakfsda
+//上传文件
+//you 
+=======
+//
+//上传文件
+//
+>>>>>>> FETCH_HEAD:HelloWorldScene 下午2.54.01.cpp
+>>>>>>> FETCH_HEAD
 >>>>>>> FETCH_HEAD
 bool HelloWorld::init()
 {
@@ -39,7 +51,7 @@ bool HelloWorld::init()
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
 
-    
+//change my code
     auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
   
     label->setPosition(Vec2(origin.x + visibleSize.width/2,
