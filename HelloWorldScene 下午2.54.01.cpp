@@ -13,9 +13,15 @@ Scene* HelloWorld::createScene()
 <<<<<<< HEAD
 //初始化
 =======
+<<<<<<< HEAD:HelloWorldScene.cpp
 //adhjjkakfsda
 //上传文件
 //you 
+=======
+//
+//上传文件
+//
+>>>>>>> FETCH_HEAD:HelloWorldScene 下午2.54.01.cpp
 >>>>>>> FETCH_HEAD
 bool HelloWorld::init()
 {
