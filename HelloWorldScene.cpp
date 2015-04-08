@@ -39,7 +39,7 @@ bool HelloWorld::init()
     menu->setPosition(Vec2::ZERO);
     this->addChild(menu, 1);
 
-    
+//change my code
     auto label = Label::createWithTTF("Hello World", "fonts/Marker Felt.ttf", 24);
   
     label->setPosition(Vec2(origin.x + visibleSize.width/2,
