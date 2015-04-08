@@ -14,6 +14,7 @@ Scene* HelloWorld::createScene()
     return scene;
 }
 
+//上传文件
 
 bool HelloWorld::init()
 {
