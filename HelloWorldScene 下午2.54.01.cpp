@@ -9,6 +9,7 @@ Scene* HelloWorld::createScene()
     scene->addChild(layer);
 
     return scene;
+//    return scene;
 }
 <<<<<<< HEAD
 //初始化
